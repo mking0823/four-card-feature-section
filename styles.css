@@ -21,3 +21,99 @@
     margin: 0;
     padding: 0;
 }
+
+/*-----------------------Layout--------------------------------------------*/
+
+
+header{
+    margin: 0  auto;
+    width: 95%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1000px) {
+    
+    main{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr  1fr;
+    
+    }
+    
+
+main >section{
+    border: solid 4px red;
+}
+.sup_box{
+    grid-area: 2/1/4/2 ;
+}
+.team_box{
+    grid-area: 1/2/3/3
+}
+.karma_box{
+    grid-area: 3/2/5/3
+}
+
+.calc_box{
+    grid-area: 2/3/4/4;
+}
+
+}
+
+
+ 
+    @media (min-width:500px)  and (max-width:999px){
+    main{
+        display: grid;
+        grid-template-rows: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr  ;
+    }
+        main >section{
+            border: solid 4px red;
+        }
+        .sup_box{
+          
+        }
+        .team_box{
+            
+        }
+        .karma_box{
+           
+        }
+        
+        .calc_box{
+           
+        }
+        
+        }
