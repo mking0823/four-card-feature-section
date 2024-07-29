@@ -23,10 +23,6 @@
 }
 
 /*-----------------------Layout--------------------------------------------*/
-body{
-    font-family: "poppins";
-    background-color: var(--Very-Light-Gray);
-}
 
 header{
     margin: 0  auto;
@@ -57,6 +53,32 @@ section >div{
 }
 /*----------------fonts  and other -----------------------*/
 
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--Very-Light-Gray);
+    color:var(--Very-Dark-Blue)
+}
+
+header >  h1, header > span{
+    font-size: 2.25rem;
+}
+
+ p{
+    font-size: .937rem;
+    font-weight: 300;
+    
+}
+
+h1{
+    font-weight: 300;
+}
+
+header > span{
+    font-weight: 600;
+    
+}
+
+ 
 
 main > section{
     border-top: solid 4px;
