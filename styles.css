@@ -25,6 +25,7 @@
 /*-----------------------Layout--------------------------------------------*/
 body{
     font-family: "poppins";
+    background-color: var(--Very-Light-Gray);
 }
 
 header{
@@ -38,25 +39,45 @@ main >section{
 }
 
 
-section > img {
+section  img {
    display: block;
    margin-left: auto;
+    
 }
-section> p {
+section  p {
     margin-bottom:9% ;
-    width: 80%;
+    
 }
 h2{
     margin-bottom :3%; 
 }
 
+section >div{
+    width: 80%;
+}
+/*----------------fonts  and other -----------------------*/
 
 
+main > section{
+    border-top: solid 4px;
+    border-radius:8px ;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+} 
 
+.sup_box{
+    border-color: var(--Cyan);
+}
+.team_box{
+    border-color: var(--Red);  
+}
 
+.karma_box{
+    border-color: var(--Orange);  
+}
 
-
-
+.calc_box{
+    border-color: var(--Blue);    
+}
 
 
 
@@ -86,13 +107,10 @@ h2{
         display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr  1fr;
-    
+        gap:2%;
     }
     
-
-main >section{
-    border: solid 4px red;
-}
+ 
 .sup_box{
     grid-area: 2/1/4/2 ;
 }
@@ -116,9 +134,10 @@ main >section{
         display: grid;
         grid-template-rows: 1fr 1fr ;
         grid-template-columns: 1fr 1fr  ;
+        gap:2%;
     }
         main >section{
-            border: solid 4px red;
+            
         }
         .sup_box{
           
