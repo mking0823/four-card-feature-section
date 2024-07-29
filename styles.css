@@ -28,10 +28,21 @@ header{
     margin: 0  auto;
     width: 95%;
     text-align: center;
+    padding-top: 80px;
 }
 
+header> p {
+    max-width: 60ch;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+p{
+    line-height: 150%;
+}
 main >section{
     padding: 8%;
+    margin-bottom: 1rem;
 }
 
 
@@ -43,6 +54,11 @@ section  img {
 section  p {
     margin-bottom:9% ;
     
+}
+
+header > span{
+    display: block;
+    margin-bottom: 16px;
 }
 h2{
     margin-bottom :3%; 
@@ -64,7 +80,7 @@ header >  h1, header > span{
 }
 
  p{
-    font-size: .937rem;
+    font-size: clamp(.937rem, 1.5vw, 1.25rem) ;
     font-weight: 300;
     
 }
@@ -151,7 +167,7 @@ main > section{
 
 
  
-    @media (min-width:500px)  and (max-width:999px){
+    @media (min-width:650px)  and (max-width:999px){
     main{
         display: grid;
         grid-template-rows: 1fr 1fr ;
