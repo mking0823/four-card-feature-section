@@ -1,6 +1,6 @@
 @font-face {
-    font-family: poppins;
-    src: url(/fonts/Poppins/Poppins-Black.ttf);
+    font-family: "poppins";
+    src: url(fonts/Poppins/Poppins-Black.ttf);
 }
 
 :root{
@@ -23,7 +23,9 @@
 }
 
 /*-----------------------Layout--------------------------------------------*/
-
+body{
+    font-family: "poppins";
+}
 
 header{
     margin: 0  auto;
@@ -31,6 +33,22 @@ header{
     text-align: center;
 }
 
+main >section{
+    padding: 8%;
+}
+
+
+section > img {
+   display: block;
+   margin-left: auto;
+}
+section> p {
+    margin-bottom:9% ;
+    width: 80%;
+}
+h2{
+    margin-bottom :3%; 
+}
 
 
 
