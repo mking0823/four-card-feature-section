@@ -24,6 +24,14 @@
 
 /*-----------------------Layout--------------------------------------------*/
 
+body{
+    /* padding-left:clamp( .5% ,  7.5%, 8%) ;
+    padding-right:clamp( .5% ,  7.5%, 8%) */
+    padding:4.5vw;
+}
+
+
+
 header{
     margin: 0  auto;
     width: 95%;
@@ -87,6 +95,7 @@ header >  h1, header > span{
 
 h1{
     font-weight: 300;
+    font-size: clamp(1.5rem,2.5vw, 2.5rem );
 }
 
 header > span{
